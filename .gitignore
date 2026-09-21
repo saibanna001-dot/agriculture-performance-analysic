@@ -26,5 +26,7 @@ build/
 .DS_Store
 Thumbs.db
 
-# Output files (optional — remove if you want to track outputs)
-outputs/
+# Output files — only track the graph PNGs, ignore large b64/json files
+outputs/*.txt
+outputs/*.json
+outputs/all_b64.txt
